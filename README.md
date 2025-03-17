@@ -286,7 +286,9 @@ Now we will add new permissions click add and then click "select a principal"
 
 Now we will add everyone 
 
-**This is for lab purposes only done for brevity and should not be done on a real production environment**
+>[!CAUTION]
+> **This is for lab purposes, only done for brevity and should not be done on a real production environment**
+
 
 ![Pasted image 20250313172553](https://github.com/user-attachments/assets/6780b167-ddab-4461-9b1a-f89ed6b58045)
 
@@ -330,6 +332,12 @@ Now back on the web browser we will click "continue" to continue the install
 
 Configure the following sections:
 
+> [!NOTE]
+> Configure your own names and email the following is what I configured make sure to fill out all the following selections
+>
+> Username/Password as well as The MySQL Sections should be the same as mine
+
+
 | Selection      | Configuration             |
 | -------------- | ------------------------- |
 | Helpdesk Name  | Rob's Helpdesk            |
@@ -354,15 +362,16 @@ Configure the following sections:
 
 
 Now if we navigate to: http://localhost/osTicket/  
+
 We will be greeted by the customer facing portal 
 
 ![Pasted image 20250317053047](https://github.com/user-attachments/assets/405b2548-1748-4df4-8745-c162cba8fd95)
 
 
 
-If we navigate to http://localhost/osTicket/scp/login.php
-We will be greeted by the employee/admin login page
-We can use the following credentials to login to the admin portal 
+If we navigate to http://localhost/osTicket/scp/login.php  
+We will be greeted by the employee/admin login page  
+We can use the following credentials to login to the admin portal   
 
 | Selection | Configuration        |
 | --------- | -------------------- |
