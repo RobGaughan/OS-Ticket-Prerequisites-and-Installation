@@ -46,12 +46,13 @@ Configure the following in the highlighted areas in the picture below:
 
 
 Be sure to check "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."  
-Create the VM
+
+Create the VM:  
 
 ![10](https://github.com/user-attachments/assets/5d03385e-0fb9-4922-b32a-2ad397e2abee)
 
 
-Connect to  the VM
+Connect to  the VM:
 
 Username: `LabADMIN`  
 Password: `osTicketPassword123!`  
