@@ -4,7 +4,7 @@
 
 # OS Ticket Prerequisites & Installation
 In this lab we will be setting up the prerequisites and installing an open source ticketing system called "OS Ticket"  
-The Objective of these labs is to gain understanding of ticketing systems and how they work
+The Objective of these labs is to gain understanding of ticketing systems and how they work  
 All the necessary files can be found [here](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 
 <h2>Environments and Technologies Used</h2>
