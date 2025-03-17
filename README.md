@@ -151,15 +151,14 @@ Click "Standard Configuration"
 
 Configure root password as: osTicketPassword123!  
 
-![[Pasted image 20250313062301.png]]
-
+![Pasted image 20250313062301](https://github.com/user-attachments/assets/e2dbc651-fa99-41a6-b5bd-17f6a5bbc1ab)
 
 ### Register PHP with IIS manager
 
 Open IIS manager run as admin
 
+![7](https://github.com/user-attachments/assets/dbbb7338-4e8d-4561-b012-41b13c7c77f9)
 
-![[7.png]]
 
 Click on "PHP manager"  
 
