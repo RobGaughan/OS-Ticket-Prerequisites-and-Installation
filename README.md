@@ -94,7 +94,6 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 ![Pasted image 20250313060632](https://github.com/user-attachments/assets/38be9458-e5e0-4593-a5a2-895086ace18f)
 
 
-
 ### Install "rewrite_amd64_en-US"
 
 Next install "rewrite_amd64_en-US"
@@ -103,8 +102,6 @@ Next install "rewrite_amd64_en-US"
 
 
 ![Pasted image 20250313060853](https://github.com/user-attachments/assets/4c373444-0c95-415c-af3a-4c6db683518f)
-
-
 
 
 ### Create a directory on C drive named PHP
@@ -149,7 +146,7 @@ Click "Standard Configuration"
 ![Pasted image 20250313062105](https://github.com/user-attachments/assets/38c2eb11-c504-47aa-ba0e-9a1ca7a3586f)
 
 
-Configure root password as: osTicketPassword123!  
+Configure root password as: `osTicketPassword123!`  
 
 ![Pasted image 20250313062301](https://github.com/user-attachments/assets/e2dbc651-fa99-41a6-b5bd-17f6a5bbc1ab)
 
@@ -170,7 +167,7 @@ Click on "Register new PHP version"
 ![Pasted image 20250313063207](https://github.com/user-attachments/assets/65830c14-0678-414a-b736-c148f31a598f)
 
 
-Next configure the path "C:\PHP\php-cgi.exe" and click ok 
+Next configure the path `C:\PHP\php-cgi.exe` and click ok 
 
 ![Pasted image 20250313063329](https://github.com/user-attachments/assets/98a41d33-57a8-4db2-bba8-912a05b5802e)
 
@@ -194,7 +191,7 @@ It should look like this:
 
 
 
-Copy the "upload folder" to "c:\inetpub\wwwroot" then rename "upload" to "osTicket"
+Copy the "upload folder" to `c:\inetpub\wwwroot` then rename "upload" to `osTicket`
 
 ![Pasted image 20250313064325](https://github.com/user-attachments/assets/0087caa8-69bc-46cc-a77b-4386cf9ab208)
 
