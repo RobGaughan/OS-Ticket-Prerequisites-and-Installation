@@ -47,7 +47,7 @@ Configure the following in the highlighted areas in the picture below:
 Be sure to check "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."  
 Create the VM
 
-![Pasted image 20250313051733](https://github.com/user-attachments/assets/9a32c4da-3dc9-4d29-9da3-244fd695cae2)
+![10](https://github.com/user-attachments/assets/5d03385e-0fb9-4922-b32a-2ad397e2abee)
 
 
 Connect to  the VM
