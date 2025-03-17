@@ -52,8 +52,8 @@ Create the VM
 
 Connect to  the VM
 
-Username: LabADMIN
-Password: osTicketPassword123!
+Username: `LabADMIN`  
+Password: `osTicketPassword123!`  
 
 ![3](https://github.com/user-attachments/assets/1a569a50-301f-4ee2-9b79-a3a7845c4b97)
 
