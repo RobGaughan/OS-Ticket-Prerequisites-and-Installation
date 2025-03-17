@@ -26,11 +26,11 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 
 
 
-<h2>Deployment and Configuration Steps</h2>
-We will Create a Windows 10 VM with 4vCPUs
+<h2>Deployment and Configuration Steps</h2> 
 
-Click on "Create"
+We will Create a Windows 10 VM with 4vCPUs  
 
+Click on "Create"  
 
 Configure the following in the highlighted areas in the picture below:
 
