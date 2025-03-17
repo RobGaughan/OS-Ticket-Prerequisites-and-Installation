@@ -163,77 +163,93 @@ Open IIS manager run as admin
 
 Click on "PHP manager"  
 
-![[Pasted image 20250313063120.png]]
+![Pasted image 20250313063120](https://github.com/user-attachments/assets/a8e27bbd-e1a5-4616-9f09-6a237d814bb7)
+
 
 Click on "Register new PHP version"
 
-![[Pasted image 20250313063207.png]]
+![Pasted image 20250313063207](https://github.com/user-attachments/assets/65830c14-0678-414a-b736-c148f31a598f)
+
 
 Next configure the path "C:\PHP\php-cgi.exe" and click ok 
 
-![[Pasted image 20250313063329.png]]
+![Pasted image 20250313063329](https://github.com/user-attachments/assets/98a41d33-57a8-4db2-bba8-912a05b5802e)
+
 
 
 Restart IIS for the change to take effect
 
-![[Pasted image 20250313063523.png]]
+![Pasted image 20250313063523](https://github.com/user-attachments/assets/6747c5af-857a-4969-bb14-226e9e172e7a)
+
 
 ### Install OSTicket v1.15.8
 
 Extract the zipped files 
 
-![[Pasted image 20250313063721.png]]
+![Pasted image 20250313063721](https://github.com/user-attachments/assets/fc83dd23-2df6-481d-b21f-855701fc5064)
+
 
 It should look like this:
 
-![[Pasted image 20250313064213.png]]
+![Pasted image 20250313064213](https://github.com/user-attachments/assets/a6b06ecb-e13a-41a0-9758-a50b33c38086)
+
 
 
 Copy the "upload folder" to "c:\inetpub\wwwroot" then rename "upload" to "osTicket"
 
- ![[Pasted image 20250313064325.png]]
+![Pasted image 20250313064325](https://github.com/user-attachments/assets/0087caa8-69bc-46cc-a77b-4386cf9ab208)
 
 Restart IIS for the change to take effect
 
-![[Pasted image 20250313063523.png]]
+![Pasted image 20250313063523](https://github.com/user-attachments/assets/b9d062d6-05c8-49ab-ac62-e0e83c2d3b8e)
+
 
 On IIS go to osticket and then click "Browse"
 
-![[Pasted image 20250313064808.png]]
+![Pasted image 20250313064808](https://github.com/user-attachments/assets/6f14c1fd-4989-45c2-9deb-89ce80774bef)
+
 
 You should be met with the osTicket installer: 
 
 As you can see by the red Xs we still have a bit more to configure 
 
-![[Pasted image 20250313064852.png]]
+!![Pasted image 20250313064852](https://github.com/user-attachments/assets/8d2ee7ab-ee48-4922-80ef-2ea11d59ce36)
+
 
 
 #### Enable PHP Extensions
 
 Go back to IIS and Select osTicket > PHP Manager   
-![[Pasted image 20250313165524.png]]
+
+![Pasted image 20250313165524](https://github.com/user-attachments/assets/6238347a-fae4-4f8c-885e-57602f6a9f99)
+
 
 Click on "Enable or disable an extension"
 
-![[Pasted image 20250313165618.png]]
+![Pasted image 20250313165618](https://github.com/user-attachments/assets/7eb1e3e3-a9d6-4db9-9fda-59bdddfd78a7)
+
 
 Right click > enable on the following .dll files
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll
 
-![[Pasted image 20250313165936.png]]
+![Pasted image 20250313165936](https://github.com/user-attachments/assets/29fdc3b8-4cff-4062-920e-991b3a3d9216)
+
 
 Once your done it should look like this:
 
-![[Pasted image 20250313170211.png]]
+![Pasted image 20250313170211](https://github.com/user-attachments/assets/5e26433f-859a-48ae-a20b-67ae42ef67ff)
+
 
 Now we can go back to our web browser and refresh to see if the changes updated
 
 The two red Xs remaining are not necessary for osTicket to function properly for our purposes we wont be enabling them
 
 It should look like this:
-![[Pasted image 20250313170707.png]]
+
+![Pasted image 20250313170707](https://github.com/user-attachments/assets/58e5268a-638c-4012-b06d-9f33f8669f31)
+
 
 
 #### Rename `ost-sampleconfig.php`
@@ -241,63 +257,77 @@ It should look like this:
 Next we will navigate to: `C:\inetpub\wwwroot\osTicket\include` 
 Rename`ost-sampleconfig.php`to `ost-config.php`
 
-![[Pasted image 20250313171115.png]]
+![Pasted image 20250313171115](https://github.com/user-attachments/assets/3ce22f25-5663-45e0-893b-9601816d6bf3)
+
 Renamed:
-![[Pasted image 20250313171148.png]]
+
+![Pasted image 20250313171148](https://github.com/user-attachments/assets/31d3a47a-a4f6-4be4-9c33-85c9828ca9ec)
+
 
 
 #### Assign permissions to `ost-config.php`
 
 Right click on `ost-config.php` and click Properties
 
-![[8.png]]
+![8](https://github.com/user-attachments/assets/4f2261ab-a420-4bd3-9289-2622e7644db3)
+
 
 Go to the securities tab and click advanced  
 
-![[Pasted image 20250313172029.png]]
+![Pasted image 20250313172029](https://github.com/user-attachments/assets/1608fde9-aa19-4c5c-b748-25c16209b8e6)
+
 
 Click "Disable inheritance" and then click "Remove all inherited permissions from this object."
 
-![[Pasted image 20250313172209.png]]
+![Pasted image 20250313172209](https://github.com/user-attachments/assets/076c1728-7972-4578-be90-0db8a2154f1b)
+
 
 Now we will add new permissions click add and then click "select a principal"
 
-![[Pasted image 20250313172441.png]]
+![Pasted image 20250313172441](https://github.com/user-attachments/assets/6381496e-addc-4539-af7d-9abd5ec32e2d)
+
 
 Now we will add everyone 
 
 **This is for lab purposes only done for brevity and should not be done on a real production environment**
 
-![[Pasted image 20250313172553.png]]
+![Pasted image 20250313172553](https://github.com/user-attachments/assets/6780b167-ddab-4461-9b1a-f89ed6b58045)
+
 
 Check "Full control" and then ok 
 
-![[Pasted image 20250313172819.png]]
+![Pasted image 20250313172819](https://github.com/user-attachments/assets/48ee9478-e4d7-445b-ab40-8d2abce5db58)
+
 
 Click apply to finalize 
 
-![[Pasted image 20250313172917.png]]
+![Pasted image 20250313172917](https://github.com/user-attachments/assets/54373c1b-cc6e-4d3c-94b0-e9b0d73291b7)
+
 
 Next install HeidiSQL
-![[Pasted image 20250313173556.png]]
+
+![Pasted image 20250313173556](https://github.com/user-attachments/assets/f02d9fcd-e78b-40e5-a8f8-bf70bc5b44aa)
+
 
 After you finish installing launch HeidiSQL
  
 Click "new" then for password:  osTicketPassword123!
 Then click "Open"
 
-![[Pasted image 20250313173937.png]]
+![Pasted image 20250313173937](https://github.com/user-attachments/assets/e6cc680e-e690-40ce-b646-d4b3190967d8)
+
 
 
 Right Click on "Unnamed" > Create new > data base 
 
-![[Pasted image 20250313174539.png]]
+![Pasted image 20250313174539](https://github.com/user-attachments/assets/1053301a-252d-459e-8622-c72eca363f0f)
+
+
 Then name it `osTicket` and Click ok 
 
 Note: You must name it exactly `osTicket` with the T capitalized or the configuration will not work 
 
-![[Pasted image 20250313174332.png]]
-
+![Pasted image 20250313174332](https://github.com/user-attachments/assets/1127e6f9-2b3e-4fc9-aae3-b76c2c7b931e)
 
 Now back on the web browser we will click "continue" to continue the install 
 
@@ -318,16 +348,19 @@ Configure the following sections:
 
 
 
-![[Pasted image 20250313174959.png]]
+![Pasted image 20250313174959](https://github.com/user-attachments/assets/26e9db14-c5ce-4df4-af2e-5f747e876bf7)
 
 
-![[Pasted image 20250313175410.png]]
+
+![Pasted image 20250313175410](https://github.com/user-attachments/assets/5fb69155-680a-4eeb-bd74-0b2fdc142108)
+
 
 
 Now if we navigate to: http://localhost/osTicket/  
 We will be greeted by the customer facing portal 
 
-![[Pasted image 20250317053047.png]]
+![Pasted image 20250317053047](https://github.com/user-attachments/assets/405b2548-1748-4df4-8745-c162cba8fd95)
+
 
 
 If we navigate to http://localhost/osTicket/scp/login.php
@@ -339,6 +372,7 @@ We can use the following credentials to login to the admin portal
 | Username  | labAdmin             |
 | Password  | osTicketPassword123! |
 
-![[Pasted image 20250317053218.png]]
+![Pasted image 20250317053218](https://github.com/user-attachments/assets/540eda21-9c23-4430-abb7-25ac529a9a95)
+
 
 
