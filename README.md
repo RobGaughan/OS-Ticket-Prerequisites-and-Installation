@@ -1,7 +1,5 @@
 # OS Ticket Prerequisites & Installation
 
-# create azure tenant d
-
 # OS Ticket Prerequisites & Installation
 In this lab we will be setting up the prerequisites and installing an open source ticketing system called "OS Ticket"  
 The Objective of these labs is to gain understanding of ticketing systems and how they work  
