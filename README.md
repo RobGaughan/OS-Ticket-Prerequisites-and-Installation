@@ -110,6 +110,8 @@ Next install "rewrite_amd64_en-US"
 
 ### Create a directory on C drive named PHP
 
+Navigate to `C:` > Create a folder named `PHP`
+
 ![Pasted image 20250313061042](https://github.com/user-attachments/assets/2342c8c5-465d-4036-a74d-cc56d2126003)
 
 
@@ -123,6 +125,10 @@ PHP folder will look like this after:
 
 
 ### Next install "VC_redist.x86"
+
+Next install "VC_redist.x86"
+
+Click through all prompts as necessary
 
 ![Pasted image 20250313061526](https://github.com/user-attachments/assets/b7a9318e-853b-4f88-97bb-8e266adfb30d)
 
@@ -213,7 +219,7 @@ You should be met with the osTicket installer:
 
 As you can see by the red Xs we still have a bit more to configure 
 
-!![Pasted image 20250313064852](https://github.com/user-attachments/assets/8d2ee7ab-ee48-4922-80ef-2ea11d59ce36)
+![Pasted image 20250313064852](https://github.com/user-attachments/assets/8d2ee7ab-ee48-4922-80ef-2ea11d59ce36)
 
 
 
@@ -290,7 +296,8 @@ Now we will add new permissions click add and then click "select a principal"
 Now we will add everyone 
 
 >[!CAUTION]
-> **This is for lab purposes, only done for brevity and should not be done on a real production environment**
+> **This is for lab purposes only and done for brevity this should not be done on a real production environment**  
+> *Enabling  permissions for everyone is bad security policy I did this to keep the lab concise* 
 
 
 ![Pasted image 20250313172553](https://github.com/user-attachments/assets/6780b167-ddab-4461-9b1a-f89ed6b58045)
