@@ -88,6 +88,8 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 
 Install PHPManagerForllS_V1.5.O
 
+*Click through all prompts as necessary*
+
 ![Pasted image 20250313060044](https://github.com/user-attachments/assets/1f601558-2794-4e95-8e5a-2333ea9c5d51)
 
 
@@ -97,6 +99,8 @@ Install PHPManagerForllS_V1.5.O
 ### Install "rewrite_amd64_en-US"
 
 Next install "rewrite_amd64_en-US"
+
+*Click through all prompts as necessary*
 
 ![Pasted image 20250313060742](https://github.com/user-attachments/assets/7e9761ef-f153-47b6-b4c9-49dc3da6401e)
 
