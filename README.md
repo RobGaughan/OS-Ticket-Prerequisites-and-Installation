@@ -221,8 +221,6 @@ As you can see by the red Xs we still have a bit more to configure
 
 ![Pasted image 20250313064852](https://github.com/user-attachments/assets/8d2ee7ab-ee48-4922-80ef-2ea11d59ce36)
 
-
-
 #### Enable PHP Extensions
 
 Go back to IIS and Select osTicket > PHP Manager   
@@ -320,14 +318,14 @@ Next install HeidiSQL
 
 After you finish installing launch HeidiSQL
  
-Click "new" then for password:  osTicketPassword123!
+Click "new" then for password:  `osTicketPassword123!`  
 Then click "Open"
 
 ![Pasted image 20250313173937](https://github.com/user-attachments/assets/e6cc680e-e690-40ce-b646-d4b3190967d8)
 
 
 
-Right Click on "Unnamed" > Create new > data base 
+Right Click on "Unnamed" > Create new > Database 
 
 ![Pasted image 20250313174539](https://github.com/user-attachments/assets/1053301a-252d-459e-8622-c72eca363f0f)
 
@@ -338,7 +336,7 @@ Note: You must name it exactly `osTicket` with the T capitalized or the configur
 
 ![Pasted image 20250313174332](https://github.com/user-attachments/assets/1127e6f9-2b3e-4fc9-aae3-b76c2c7b931e)
 
-Now back on the web browser we will click "continue" to continue the install 
+### Now back on the web browser we will click "continue" to continue the install 
 
 Configure the following sections:
 
@@ -390,5 +388,9 @@ We can use the following credentials to login to the admin portal
 
 ![Pasted image 20250317053218](https://github.com/user-attachments/assets/540eda21-9c23-4430-abb7-25ac529a9a95)
 
+Thats it for this lab we have successfully installed osTicket!
 
+In the next lab we will configure different roles within OS ticket as well as configuring SLAs (Service Level Agreements)
+
+## Next Steps
 
