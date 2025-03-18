@@ -86,6 +86,8 @@ Navigate to the web browser and type http://127.0.0.1/ you should see this scree
 
 All the necessary files can be found [here](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) open this link within the VM and download the files and unzip them to the desktop
 
+Install PHPManagerForllS_V1.5.O
+
 ![Pasted image 20250313060044](https://github.com/user-attachments/assets/1f601558-2794-4e95-8e5a-2333ea9c5d51)
 
 
