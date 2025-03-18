@@ -65,7 +65,8 @@ To do this navigate to the Control Panel
 
 ![Pasted image 20250313054637](https://github.com/user-attachments/assets/bef5dc7f-2b55-44a1-aa56-a34f9981a120)
 
- Enable Internet Information Services 
+ To enable Internet Information Services:
+ 
  Navigate to World Wide Web Services> Application Development Features and enable CGI
 
 
@@ -75,6 +76,8 @@ To do this navigate to the Control Panel
 ### Verify IIS has been installed
 
 Navigate to the web browser and type http://127.0.0.1/ you should see this screen:
+
+*This address is the loopback address we have created a website hosted on the internal loopback address*
 
 ![Pasted image 20250313055435](https://github.com/user-attachments/assets/ba2a6cd2-f5f0-438a-8e61-1e3ded145c6a)
 
