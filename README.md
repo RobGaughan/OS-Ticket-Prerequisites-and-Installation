@@ -16,19 +16,13 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 
 - Windows 10 Pro, version 22H2 - x64 Gen2
 
-
-
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-![Pasted image 20250313050651](https://github.com/user-attachments/assets/1d4105aa-bc08-4686-8647-c13eaf6a5969)
-
-
-
 <h2>Deployment and Configuration Steps</h2> 
 
 We will Create a Windows 10 VM with 4vCPUs  
 
 Click on "Create"  
+
+![Pasted image 20250313050651](https://github.com/user-attachments/assets/1d4105aa-bc08-4686-8647-c13eaf6a5969)
 
 Configure the following in the highlighted areas in the picture below:
 
