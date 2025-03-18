@@ -22,6 +22,7 @@ We will Create a Windows 10 VM with 4vCPUs
 
 Click on "Create"  
 
+
 ![Pasted image 20250313050651](https://github.com/user-attachments/assets/1d4105aa-bc08-4686-8647-c13eaf6a5969)
 
 Configure the following in the highlighted areas in the picture below:
