@@ -15,6 +15,17 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 
 - Windows 10 Pro, version 22H2 - x64 Gen2
 
+## Configuration Steps
+1. Create an Azure Virtual Machine
+2. Connect to the VM
+3. Install IIS with CGI
+4. Install dependencies
+5. Register PHP with IIS manager
+6. Load osTicket configuration file
+7. Configure file permissions
+8. Install & configure HeidiSQL
+9. Finalize osTicket installation 
+
 <h2>Deployment and Configuration Steps</h2> 
 
 We will Create a Windows 10 VM with 4vCPUs  
