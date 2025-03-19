@@ -92,7 +92,7 @@ Navigate to the web browser and type http://127.0.0.1/ you should see this scree
 
 ![Pasted image 20250313055435](https://github.com/user-attachments/assets/ba2a6cd2-f5f0-438a-8e61-1e3ded145c6a)
 
-## Installing dependencies
+### Installing dependencies
 
 #### Install PHP manager for IIS
 
