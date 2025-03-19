@@ -28,6 +28,8 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 
 <h2>Deployment and Configuration Steps</h2> 
 
+### Create an Azure Virtual Machine
+
 We will Create a Windows 10 VM with 4vCPUs  
 
 Click on "Create"  
@@ -55,7 +57,7 @@ Create the VM:
 ![10](https://github.com/user-attachments/assets/5d03385e-0fb9-4922-b32a-2ad397e2abee)
 
 
-Connect to  the VM:
+### Connect to  the VM:
 
 Username: `LabADMIN`  
 Password: `osTicketPassword123!`  
@@ -82,7 +84,6 @@ To do this navigate to the Control Panel
 
 ![Pasted image 20250313055122](https://github.com/user-attachments/assets/91c784cd-8458-4ee9-837a-fdd02a5a5047)
 
-
 ### Verify IIS has been installed
 
 Navigate to the web browser and type http://127.0.0.1/ you should see this screen:
@@ -91,8 +92,9 @@ Navigate to the web browser and type http://127.0.0.1/ you should see this scree
 
 ![Pasted image 20250313055435](https://github.com/user-attachments/assets/ba2a6cd2-f5f0-438a-8e61-1e3ded145c6a)
 
+## Installing dependencies
 
-### Install PHP manager for IIS
+#### Install PHP manager for IIS
 
 All the necessary files can be found [here](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) open this link within the VM and download the files and unzip them to the desktop
 
@@ -106,7 +108,7 @@ Install PHPManagerForllS_V1.5.O
 ![Pasted image 20250313060632](https://github.com/user-attachments/assets/38be9458-e5e0-4593-a5a2-895086ace18f)
 
 
-### Install "rewrite_amd64_en-US"
+#### Install "rewrite_amd64_en-US"
 
 Next install "rewrite_amd64_en-US"
 
@@ -118,7 +120,7 @@ Next install "rewrite_amd64_en-US"
 ![Pasted image 20250313060853](https://github.com/user-attachments/assets/4c373444-0c95-415c-af3a-4c6db683518f)
 
 
-### Create a directory on C drive named PHP
+#### Create a directory on C drive named PHP
 
 Navigate to `C:` > Create a folder named `PHP`
 
@@ -134,7 +136,7 @@ PHP folder will look like this after:
 ![Pasted image 20250313061418](https://github.com/user-attachments/assets/265b14b8-6c2f-471b-977a-3c78091a41c5)
 
 
-### Next install "VC_redist.x86"
+#### Next install "VC_redist.x86"
 
 Next install "VC_redist.x86"
 
@@ -146,7 +148,7 @@ Click through all prompts as necessary
 ![Pasted image 20250313061607](https://github.com/user-attachments/assets/250742ef-1d53-48fd-82a9-ed6d32ff4636)
 
 
-### Install "mysql-5.5.62-win32"
+#### Install "mysql-5.5.62-win32"
 
 ![Pasted image 20250313061704](https://github.com/user-attachments/assets/49e29025-6af7-474b-bb75-a029ba8fb0b9)
 
@@ -170,7 +172,7 @@ Configure root password as: `osTicketPassword123!`
 
 ![Pasted image 20250313062301](https://github.com/user-attachments/assets/e2dbc651-fa99-41a6-b5bd-17f6a5bbc1ab)
 
-### Register PHP with IIS manager
+#### Register PHP with IIS manager
 
 Open IIS manager run as admin
 
@@ -198,7 +200,7 @@ Restart IIS for the change to take effect
 ![Pasted image 20250313063523](https://github.com/user-attachments/assets/6747c5af-857a-4969-bb14-226e9e172e7a)
 
 
-### Install OSTicket v1.15.8
+#### Install OSTicket v1.15.8
 
 Extract the zipped files 
 
