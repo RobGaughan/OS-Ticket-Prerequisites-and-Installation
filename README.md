@@ -200,7 +200,7 @@ Restart IIS for the change to take effect
 ![Pasted image 20250313063523](https://github.com/user-attachments/assets/6747c5af-857a-4969-bb14-226e9e172e7a)
 
 
-#### Install OSTicket v1.15.8
+### Install OSTicket v1.15.8
 
 Extract the zipped files 
 
@@ -323,7 +323,7 @@ Click apply to finalize
 ![Pasted image 20250313172917](https://github.com/user-attachments/assets/54373c1b-cc6e-4d3c-94b0-e9b0d73291b7)
 
 
-Next install HeidiSQL
+### Next install & Confiure HeidiSQL
 
 ![Pasted image 20250313173556](https://github.com/user-attachments/assets/f02d9fcd-e78b-40e5-a8f8-bf70bc5b44aa)
 
@@ -348,7 +348,9 @@ Note: You must name it exactly `osTicket` with the T capitalized or the configur
 
 ![Pasted image 20250313174332](https://github.com/user-attachments/assets/1127e6f9-2b3e-4fc9-aae3-b76c2c7b931e)
 
-### Now back on the web browser we will click "continue" to continue the install 
+### Finalize osTicket installation
+
+Now back on the web browser we will click "continue" to continue the install 
 
 Configure the following sections:
 
