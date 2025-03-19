@@ -50,7 +50,7 @@ Configure the following in the highlighted areas in the picture below:
 | Password              | osTicketPassword123!                    |
 
 
-Be sure to check "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."  
+Be sure to check "*I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.*"  
 
 Create the VM:  
 
